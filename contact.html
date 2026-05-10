@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <button type="button" onclick="contactMessage()">Schedule your appointment</button>
+    </header>
+
+    <main>
+        <h1>Contact</h1>
+
+        <div class="meniu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="homeworks.html">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <p>Curious to discover more? Register below:</p>
+
+        <form>
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" cols="30"></textarea>
+            </div>
+
+            <button type="button" onclick="sendMessage()">Send</button>
+        </form>
+
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
